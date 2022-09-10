@@ -1,0 +1,12 @@
+sudo -i 
+
+yum update 
+yum install httpd 
+service httpd status
+service httpd start
+cd /var/www/html/
+ll
+vim index.html
+ping fb.com 
+history 
+history | cut -c 8-
