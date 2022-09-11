@@ -1,7 +1,7 @@
 # aws-sa-tutorial
 Aws Solution-Architect-Tutorial 
 
-# How t0 instoll web-server
+# How to install Web-server
 
 ```
 sudo yum install httpd git elinks htop -y
