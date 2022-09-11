@@ -14,3 +14,13 @@ sudo vim  /var/www/html/index.html
 
 sudo chkconfig httpd on 
 ```
+# instance meta-data
+
+```
+
+sudo curl http://169.254.169.254/latest/meta-data/public-ipv4
+curl http://169.254.169.254/latest/
+curl http://169.254.169.254/latest/meta-data
+curl http://169.254.169.254/latest/meta-data/ami-id
+
+```
