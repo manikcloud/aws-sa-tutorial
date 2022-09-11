@@ -4,7 +4,7 @@ Aws Solution-Architect-Tutorial
 # How to install Web-server
 
 ```
-sudo yum install httpd git elinks htop -y
+sudo yum install httpd -y
 
 sudo service httpd start
 sudo service httpd status
