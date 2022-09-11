@@ -1,0 +1,25 @@
+    1  ll
+    2  lsblk 
+    3  lsblk -f
+    4  sudo file -s /dev/xvdf
+    5  lsblk -f
+    6  sudo file -s /dev/xvda1
+    7  sudo mkfs -t xfs /dev/xvdf
+    8  lsblk -f
+    9  sudo file -s /dev/xvdf
+   10  sudo mkdir /data
+   11  sudo mount /dev/xvdf /data
+   12  cat /etc/fstab
+   13  sudo blkid
+   14  sudo vim /etc/fstab
+   15   mount -a
+   16  unmount /data
+   17  umount /data
+   18   mount -a
+   19  ssh-keygen
+   20  cat ~/.ssh/id_rsa.pub 
+   21  git clone git@github.com:manikcloud/aws-sa-tutorial.git
+   22  yum install git 
+   23  git clone git@github.com:manikcloud/aws-sa-tutorial.git
+   24  cd aws-sa-tutorial/
+   25  history >> history.txt
