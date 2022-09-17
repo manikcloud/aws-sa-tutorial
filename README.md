@@ -24,6 +24,8 @@ curl http://169.254.169.254/latest/meta-data
 curl http://169.254.169.254/latest/meta-data/ami-id
 
 ```
+# Varun's Blog
+- https://varunmanik1.medium.com/a-simple-machine-learning-step-by-step-tutorial-with-the-help-of-amazon-translate-lambda-api-1cc200bf2212
 
 # References
 
